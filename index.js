@@ -29,7 +29,7 @@ const signUp = () => {
 
           if(createPass.match(/\s/)) {
 
-            alert('Password must not contains white spaces');
+            alert('Password must not contain white spaces');
 
             createPass = prompt('Create a password: last chance');
 
@@ -37,7 +37,7 @@ const signUp = () => {
 
               if(createPass.match(/\s/)) {
 
-                alert('Password must not contains white spaces: Terminating the program');
+                alert('Password must not contain white spaces: Terminating the program');
 
               } else {
 
@@ -89,7 +89,7 @@ const signUp = () => {
 
             } else {
 
-              alert('Password must 8 characters above: Terminating the program');
+              alert('Password must be 8 characters above: Terminating the program');
 
             }
 
@@ -143,7 +143,7 @@ const signUp = () => {
 
         } else {
 
-          alert('Password must 8 characters above, no white spaces');
+          alert('Password must be 8 characters above, no white spaces');
           
           createPass = prompt('Create a password: last chance');
 
@@ -151,7 +151,7 @@ const signUp = () => {
 
             if(createPass.match(/\s/)) {
 
-              alert('Password must not contains white spaces: Terminating the program');
+              alert('Password must not contain white spaces: Terminating the program');
 
             } else {
 
@@ -203,7 +203,7 @@ const signUp = () => {
 
           } else {
 
-            alert('Password must 8 characters above, no white spaces: Terminating the program');
+            alert('Password must be 8 characters above, no white spaces: Terminating the program');
 
           }
 
@@ -211,7 +211,7 @@ const signUp = () => {
 
       } else {
 
-        alert('Password must be not empty');
+        alert('Password must not be empty');
 
         createPass = prompt('Create Password: Last Chance');
 
@@ -270,7 +270,7 @@ const signUp = () => {
           }
 
         } else {
-          alert('Password must 8 characters above, no white spaces');
+          alert('Password must be 8 characters above, no white spaces');
         }
 
       }
