@@ -283,7 +283,7 @@ const signUp = () => {
 
   } else {
 
-    alert('NO Valie')
+    alert('Username must not be empty: Terminating the program');
 
   }
 
